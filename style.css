@@ -1,5 +1,20 @@
+:root {
+  --textColor:rgb(214, 202, 202);
+  --font :'Heebo', sans-serif;
+}
+
 body {
-    background-color: #03DAC6;
+    background-color: #11131e;
+    display: flex;
+    justify-content:flex-start;
+    overflow: hidden;
+   
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
   
 @font-face {
@@ -10,3 +25,17 @@ body {
   h1 {
     font-family: "Norse-Bold", sans-serif;
   }
+
+  .heading{
+    margin:60px 40px 0px 40px;
+    font-family: var(--font);
+    font-size: 18px;
+    color:var(--textColor);
+    
+  }
+ .text {
+  margin:40px 40px 0px 40px;
+  font-family: var(--font);
+    font-size: 17px;
+    color:var(--textColor);
+ }
