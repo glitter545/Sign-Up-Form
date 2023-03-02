@@ -1,0 +1,80 @@
+:root {
+    --textColor:rgb(214, 202, 202);
+    --font :'Heebo', sans-serif;
+    --label-color :  #626369;
+  }
+  
+  body {
+      background-color: #11131e;
+      display: flex;
+      justify-content:flex-start;
+      overflow: hidden;
+     
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+    
+  @font-face {
+      font-family: "Norse-Bold" ;
+      src: url(fonts/Norse-Bold.otf);
+    }
+  
+    h1 {
+      font-family: "Norse-Bold", sans-serif;
+    }
+  
+    .heading{
+      margin:45px 40px 0px 40px;
+      font-family: var(--font);
+      font-size: 18px;
+      color:var(--textColor);
+      
+    }
+   .text {
+      margin:40px 40px 0px 40px;
+     font-family: var(--font);
+      font-size: 17px;
+      color:var(--textColor);
+   }
+  
+   .form-container {
+    margin-left: 40px;
+    margin-right: 40px;
+   }
+    form {
+    padding-bottom: 2px;
+    border:2px solid whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-column-gap: 0.3em;
+  }
+  
+  header {
+    font-family: var(--font);
+    color: var(--textColor);
+    font-size: 18px;
+    margin-bottom: 11px;
+  
+  }
+  
+  label {
+    font-family: var(--font);
+    font-size: 12px;
+    color : var(--label-color);
+  }
+  
+  input[type="text"] , input[type="email"] , input[type="tel"],
+  input[type="password"] {
+    padding: 5px;
+    height: 20px;
+    width: 100%;
+    border : 1px solid violet;
+    background-color: #11131e;
+  }
+ 
+  
