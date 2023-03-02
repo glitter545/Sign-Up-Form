@@ -20,19 +20,19 @@
 
  <div class="form-background">
  <div class="form-container">
-  <form>
+  <form id="user-info">
     <header>Let's do this!</header>
     
     <div></div>
 
     <div class="section">
     <label for="fname">FIRST NAME</label>
-    <input type="text" id="fname" name="fname"/>
+    <input type="text" id="fname" name="fname" required/>
     </div>
   
     <div class="section">
    <label for="lname">LAST NAME</label>
-   <input type="text" id="lname" name="lname"/>
+   <input type="text" id="lname" name="lname" required/>
     </div>
     
     <div class="section">
@@ -61,7 +61,7 @@
   
 </div>
 </div>
-<button class="create" type="button">Create Account</button>
+<button class="create" form="user-info" type="submit">Create Account</button>
 
 <div class="button-under">
   Already have an account? <button class="log-in">Log in</button>
