@@ -129,3 +129,24 @@ form {
 .log-in:hover {
   color:rgb(255, 248, 248);
 }
+
+ 
+.image-container {
+  position: relative;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100px;
+  width: 100%;
+  position: absolute;
+  top:150px;
+  background-color: rgba(44, 55, 50, 0.5);
+}
+.logo-name {
+  font-family: Norse-Bold;
+  font-size: 70px;
+  color: aliceblue;
+}
