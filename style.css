@@ -133,6 +133,9 @@ form {
  
 .image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .logo-container {
@@ -149,4 +152,19 @@ form {
   font-family: Norse-Bold;
   font-size: 70px;
   color: aliceblue;
+}
+
+.picture-info {
+  position: absolute;
+  bottom: 20px;
+  font-size: 10px;
+  font-family: var(--font);
+  font-weight: 600;
+  color: rgb(219, 207, 207);
+}
+a {
+  color: rgb(219, 207, 207);
+}
+a:hover {
+  color:white;
 }
